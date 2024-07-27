@@ -1,7 +1,7 @@
 using './main.bicep'
 
 param prefix = 'secure'
-param suffix = 'test'
+param suffix = 'aleeza'
 param userObjectId = '<user-object-id>'
 param keyVaultEnablePurgeProtection = false
 param acrEnabled = false
