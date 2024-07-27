@@ -5,7 +5,9 @@ param suffix = 'aleeza'
 param userObjectId = '<user-object-id>'
 param keyVaultEnablePurgeProtection = false
 param acrEnabled = false
-param aiServicesSku = 'S1'
+param aiServicesSku = {
+  name: 'S1'
+}
 param openAiDeployments = [
   {
     model: {
